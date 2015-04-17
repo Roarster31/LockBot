@@ -9,7 +9,7 @@ public class NetworkHelper {
 
     public static NetworkService getNetworkService() {
         RestAdapter restAdapter = new RestAdapter.Builder()
-                .setEndpoint("http://smithyproductions.ngrok.com")
+                .setEndpoint("http://home.smithy.productions:3953")
                 .setLogLevel(RestAdapter.LogLevel.FULL)
                 .build();
 
